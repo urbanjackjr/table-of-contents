@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/table-of-contents",
+	"version": "1.0.3",
+	"title": "Spis treści",
+	"category": "widgets",
+	"icon": "editor-ol",
+	"description": "Spis treści",
+	"keywords": ["table", "contents", "spis", "treści"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "table-of-contents",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"message": {
+			"type": "array",
+			"default": []
+		}
+	}
+}
